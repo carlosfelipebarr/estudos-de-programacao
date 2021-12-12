@@ -9,9 +9,9 @@ public class exercicio1_bhaskara {
 
 		double delta, valorA, valorB, valorC, r1, r2;
 
-		System.out.println("\n----------- Quest„o 1 -----------");
-		System.out.println("\n------ FÛrmula de Bhaskara ------");
-		System.out.println("\n- Descubra as raizes da equaÁ„o -");
+		System.out.println("\n----------- Quest√£o 1 -----------");
+		System.out.println("\n------ F√≥rmula de Bhaskara ------");
+		System.out.println("\n- Descubra as raizes da equa√ß√£o -");
 
 		System.out.printf("\nDigite o A: ");
 		valorA = ler.nextDouble();
@@ -26,7 +26,7 @@ public class exercicio1_bhaskara {
 
 		if (delta < 0) {
 
-			System.out.printf("\nImpossÌvel calcular!");
+			System.out.printf("\nImposs√≠vel calcular!");
 
 		} else if (delta == 0) {
 
