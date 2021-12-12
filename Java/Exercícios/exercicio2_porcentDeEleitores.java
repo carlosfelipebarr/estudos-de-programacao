@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class exercicio2_porcentDeEleitores {
 
 	public static void main(String[] args) {
+		// Utilizando o Scanner para lê o que o usuário digitar e transmitir a variável
 		Scanner ler = new Scanner(System.in);
 
+		// Declarando as váriaveis
 		int totalEleitores, votosBrancos, votosNulos, votosValidos;
 		float percentualBrancos = 0, percentualNulos = 0, percentualValidos = 0;
 
@@ -31,19 +33,23 @@ public class exercicio2_porcentDeEleitores {
 			// Expressão para o cálculo percentual: a variável float percentualBrancos recebe o resultado 
 			// da conta múltiplicação do número de votos brancos dividido pelo total de eleitores
 			percentualBrancos += (votosBrancos * 100 / totalEleitores);
+			// Exibindo o resultado ao usuário
 			System.out.println("\n- Percentual de votos brancos: " + percentualBrancos + "%");
 			// Expressão para o cálculo percentual: a variável float percentualNulos recebe o resultado 
 			// da conta múltiplicação do número de votos nulos dividido pelo total de eleitores
 			percentualNulos += (votosNulos * 100 / totalEleitores);
+			// Exibindo o resultado ao usuário
 			System.out.println("\n- Percentual de votos nulos: " + percentualNulos + "%");
 			// Expressão para o cálculo percentual: a variável float percentualValidos recebe o resultado 
 			// da conta múltiplicação do número de votos validos dividido pelo total de eleitores
 			percentualValidos += (votosValidos * 100 / totalEleitores);
+			// Exibindo o resultado ao usuário
 			System.out.println("\n- Percentual de votos válidos: " + percentualValidos + "%");
 		
 		// Caso a condicional Se (if) não seja verdeira ou seja o total de eleitores seja menor que a 
 		//soma dos votos o sistema retornará que a ação é inválida
 		} else {
+			// Exibindo o resultado ao usuário
 			System.out.println("\nA ação realizada não é válida");
 		}
 	}
