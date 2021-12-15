@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class exercicio9_Calculadora {
 	
 		public static void main(String [] args) {
+			// Importando o Scanner para ler o que o usuário digitar
 			Scanner ler = new Scanner(System.in);
 			
 			// Declarando váriavel float para guardar os número 1 e 2
