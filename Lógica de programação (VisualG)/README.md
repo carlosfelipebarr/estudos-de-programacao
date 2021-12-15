@@ -1,2 +1,2 @@
 # Algoritmos desenvolvidos no VisualG
-### Exercicios utilizando diferentes tipos de estruturas.
+### Exercicios de lógica de programção, utilizando diferentes tipos de conceitos e estruturas. 
