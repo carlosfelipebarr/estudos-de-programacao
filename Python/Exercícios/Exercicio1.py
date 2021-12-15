@@ -35,4 +35,3 @@ while contador < 1:
                divisor.append(x)
        #Exbindo o resultado
        print(f"Divisores de {contimpar} são: " + ' '.join([str(i) for i in divisor]))
-
