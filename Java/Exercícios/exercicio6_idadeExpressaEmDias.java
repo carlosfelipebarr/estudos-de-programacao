@@ -36,7 +36,7 @@ public class exercicio6_idadeExpressaEmDias {
 			// Exibindo o resultado ao usuário
 			System.out.println("\nSua idade é: " + idade + " dias");
 
-		// Caso não seja verdadeira a condição
+		// Caso a condição não seja verdadeira 
 		} else {
 			// Exibindo o resultado ao usuário de ação inválida
 			System.out.println("\nEntrada inválida");
