@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+   
+}
+
+/* -----------  Configurações do menu inicial: -----------
+Todas as configurações do menu do site  */
+
+nav {
+  /* Posição do menu */
+  padding-top: 15px;
+  padding-left: 15px;
+  /* Espessura das barras do menu */
+  width: 50px;
+  /* Cursor de click */
+  cursor: pointer;
+  /* Sempre ficar na mesma posição na tela */
+  position: fixed;
+  /* Sobre por outras estruturas da página */
+  z-index: 2;
+}
+
+/* Icone do menu  e  X */
+.barra {
+  /* Altura das barras */
+  height: 5px;
+  /* Ocupar 100% do width definido na tag <nav> */
+  width: 100%;
+  /* Cor das barras */
+  background-color: purple;
+  /* Arredondamento das barras */
+  border-radius: 5px;
+  /* Duração da transição do icone menu para X */
+  transition: 0.5s ease;
+  /* Cursor de click */
+  cursor: pointer;
+}
+  
+#bar1 {
+  transform: translateY(-4px);
+}
+#bar3 {
+  transform: translateY(4px);
+}
+
+
+.menu {
+  display: none;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+label.logo {
+	color: white !important;
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+
+
+/* Cor das opções do menu */
+.menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+/* hover das opções do menu */
+.menu li a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.menu li {
+  padding: 8px 0;
+  list-style: none;
+}
+  
+.menu-bg {
+  background: black;
+  transition: 0.2s ease;
+  position: fixed;
+  z-index: 1;
+}
+  
+.change-bg {
+  width: 150px;
+  height: 500px;
+  border-radius: 6%;
+  transform: translate(-10%, -150%);
+}
+  
+/* Definições de cor do icone de fechar X do menu */
+.change .bar {
+  background-color: white;
+}
+  
+/* Tirando o terceirro elemento para fazer o X */
+.change #bar2 {
+  opacity: 0;
+}
+
+.change {
+  display: block;
+}
+
+/* Efeito do icone de fechar X do menu */
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+  
+/* Efeito do icone de fechar X do menu */
+  .change #bar3 {
+  transform: translateY(-6px) rotate(45deg);
+}  
+/* Finalizando as configurações do menu */
+
+
+header {
+  height: 40rem;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sessao-2, .sessao-3, .sessao-4, .sessao-5 {
+  height: 40rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sessao-2 {
+  background-color: blue;
+}
+
+.sessao-3 {
+  background-color: red;
+}
+
+.sessao-4 {
+  background-color: yellow;
+}
+
+.sessao-5 {
+  background-color: violet;
+}
