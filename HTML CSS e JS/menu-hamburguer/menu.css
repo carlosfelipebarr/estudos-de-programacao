@@ -64,6 +64,10 @@ label.logo {
 	font-weight: bold !important;
 }
 
+.menu li {
+  padding: 8px 0;
+  list-style: none;
+}
 
 /* Cor das opções do menu */
 .menu li a {
@@ -76,11 +80,6 @@ label.logo {
 .menu li a:hover {
   font-weight: bold;
   color: white;
-}
-
-.menu li {
-  padding: 8px 0;
-  list-style: none;
 }
   
 .menu-bg {
