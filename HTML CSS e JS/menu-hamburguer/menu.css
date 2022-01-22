@@ -88,13 +88,13 @@ label.logo {
   transition: 0.2s ease;
   position: fixed;
   z-index: 1;
+  border-radius: 6%;
 }
   
 .change-bg {
   width: 150px;
   height: 500px;
-  border-radius: 6%;
-  transform: translate(-10%, -150%);
+  transform: translate(-10%, -10%);
 }
   
 /* Definições de cor do icone de fechar X do menu */
